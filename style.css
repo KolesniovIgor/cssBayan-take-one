@@ -75,3 +75,38 @@ body {
 .bayan-input:checked ~ .bayan-label .arrow{
   transform: rotate(180deg);
 }
+
+@media (min-width: 820px){
+
+  .title {
+    font-size: 3rem;
+  }
+  .label-text{
+    font-size: 1.2rem;
+  }
+    
+  .wrapper:hover .arrow{
+    display: block;
+  }
+
+  .bayan-label{
+    cursor: pointer;
+  }
+
+  .bayan-inner{
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1218px) {
+  .title {
+    font-size: 3.4rem;
+  }
+
+  .bayan-item{
+    cursor: pointer;
+  }
+  .wrapper {
+    max-width: 40%;
+  }
+}
